@@ -1,0 +1,11 @@
+[package]
+name = "rust-demo"
+version = "0.1.0"
+edition = "2021"
+description = "A simple Rust demo project showcasing basic language features"
+authors = ["Devin Demo <devin@example.com>"]
+
+[dependencies]
+actix-web = "4.4"
+actix-files = "0.6"
+serde = { version = "1.0", features = ["derive"] }
